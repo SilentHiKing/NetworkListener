@@ -2,6 +2,10 @@ package com.hiking.networklistener.annotation;
 
 import android.support.annotation.StringDef;
 
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+
+@Retention(RetentionPolicy.SOURCE)
 @StringDef({NetType.AUTO, NetType.WIFI, NetType.CMNET, NetType.CMWAP, NetType.NONE, NetType.MOBILE})
 public @interface NetType {
     //有网络，包括Wifi/gprs
