@@ -1,9 +1,10 @@
-package com.hiking.networklistener;
+package com.hiking.test;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
+import com.hiking.networklistener.NetworkManager;
 import com.hiking.networklistener.annotation.NetType;
 import com.hiking.networklistener.annotation.Network;
 import com.hiking.networklistener.bean.Constants;

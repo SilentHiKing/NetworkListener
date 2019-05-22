@@ -1,6 +1,8 @@
-package com.hiking.networklistener;
+package com.hiking.test;
 
 import android.app.Application;
+
+import com.hiking.networklistener.NetworkManager;
 
 public class BaseApplication extends Application {
 
